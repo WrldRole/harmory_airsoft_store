@@ -1,0 +1,19 @@
+import React from 'react';
+import rifles from '../data/rifles';
+
+const ProductsList = () => {
+  return (
+    <div className="product-list">
+      {rifles.map((rifle, index) => (
+        <div key={index} className="product-item">
+          <h2>{rifle.name}</h2>
+          <p><strong>Price:</strong> {rifle.price}</p>
+          <p><strong>Type:</strong> {rifle.type}</p>
+          <p><strong>Source:</strong> {rifle.source}</p>
+        </div>
+      ))}
+    </div>
+  );
+};
+
+export default ProductsList;
