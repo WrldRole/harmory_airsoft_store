@@ -1,0 +1,135 @@
+// src/data/rifles.js
+const rifles = [
+  // Patrol Base
+  { name: "Patrol Base M4A1 AEG", price: "£207", type: "AEG", source: "Patrol Base" },
+  { name: "Patrol Base G36C AEG", price: "£200", type: "AEG", source: "Patrol Base" },
+  { name: "Patrol Base M4 CQB AEG", price: "£191", type: "AEG", source: "Patrol Base" },
+  { name: "Patrol Base M249 SAW AEG", price: "£457", type: "AEG", source: "Patrol Base" },
+  { name: "Patrol Base AK47 AEG", price: "£228", type: "AEG", source: "Patrol Base" },
+  { name: "Patrol Base G&G CM16 Raider", price: "£183", type: "AEG", source: "Patrol Base" },
+  { name: "Patrol Base Krytac Trident MK2", price: "£291", type: "AEG", source: "Patrol Base" },
+  { name: "Patrol Base LCT AK74M AEG", price: "£266", type: "AEG", source: "Patrol Base" },
+  { name: "Patrol Base M4A1 Carbine", price: "£233", type: "AEG", source: "Patrol Base" },
+  { name: "Patrol Base M14 EBR AEG", price: "£349", type: "AEG", source: "Patrol Base" },
+  { name: "Patrol Base HK416 AEG", price: "£274", type: "AEG", source: "Patrol Base" },
+  { name: "Patrol Base F2000 AEG", price: "£258", type: "AEG", source: "Patrol Base" },
+  { name: "Patrol Base SVD Dragunov", price: "£316", type: "AEG", source: "Patrol Base" },
+  { name: "Patrol Base M14 SOCOM AEG", price: "£291", type: "AEG", source: "Patrol Base" },
+  { name: "Patrol Base A&K M60E4 AEG", price: "£457", type: "AEG", source: "Patrol Base" },
+  { name: "Patrol Base M4 S-System AEG", price: "£241", type: "AEG", source: "Patrol Base" },
+  { name: "Patrol Base LMG M249", price: "£373", type: "AEG", source: "Patrol Base" },
+
+  // BZ Tactical
+  { name: "BZ Tactical AK-47 AEG", price: "£233", type: "AEG", source: "BZ Tactical" },
+  { name: "BZ Tactical SCAR-L AEG", price: "£249", type: "AEG", source: "BZ Tactical" },
+  { name: "BZ Tactical SCAR-H AEG", price: "£291", type: "AEG", source: "BZ Tactical" },
+  { name: "BZ Tactical AK74 AEG", price: "£228", type: "AEG", source: "BZ Tactical" },
+  { name: "BZ Tactical G36K AEG", price: "£200", type: "AEG", source: "BZ Tactical" },
+  { name: "BZ Tactical M4A1 AEG", price: "£208", type: "AEG", source: "BZ Tactical" },
+  { name: "BZ Tactical M16A4 AEG", price: "£216", type: "AEG", source: "BZ Tactical" },
+  { name: "BZ Tactical L85A2 AEG", price: "£291", type: "AEG", source: "BZ Tactical" },
+  { name: "BZ Tactical AUG AEG", price: "£274", type: "AEG", source: "BZ Tactical" },
+  { name: "BZ Tactical MP5 AEG", price: "£191", type: "AEG", source: "BZ Tactical" },
+  { name: "BZ Tactical M4 RIS AEG", price: "£224", type: "AEG", source: "BZ Tactical" },
+  { name: "BZ Tactical F2000 AEG", price: "£258", type: "AEG", source: "BZ Tactical" },
+  { name: "BZ Tactical G&G CM16", price: "£200", type: "AEG", source: "BZ Tactical" },
+  { name: "BZ Tactical M1100 AEG", price: "£183", type: "AEG", source: "BZ Tactical" },
+  { name: "BZ Tactical F88 Steyr AEG", price: "£291", type: "AEG", source: "BZ Tactical" },
+  { name: "BZ Tactical RPK AEG", price: "£323", type: "AEG", source: "BZ Tactical" },
+  { name: "BZ Tactical KWA MP7 AEG", price: "£266", type: "AEG", source: "BZ Tactical" },
+
+  // Airsoft Direct
+  { name: "Airsoft Direct M16A1", price: "£224", type: "AEG", source: "Airsoft Direct" },
+  { name: "Airsoft Direct G36C", price: "£208", type: "AEG", source: "Airsoft Direct" },
+  { name: "Airsoft Direct AK47 AEG", price: "£228", type: "AEG", source: "Airsoft Direct" },
+  { name: "Airsoft Direct RPK", price: "£291", type: "AEG", source: "Airsoft Direct" },
+  { name: "Airsoft Direct M4A1 Carbine", price: "£233", type: "AEG", source: "Airsoft Direct" },
+  { name: "Airsoft Direct HK416 AEG", price: "£274", type: "AEG", source: "Airsoft Direct" },
+  { name: "Airsoft Direct M14 EBR", price: "£349", type: "AEG", source: "Airsoft Direct" },
+  { name: "Airsoft Direct M249 SAW", price: "£457", type: "AEG", source: "Airsoft Direct" },
+  { name: "Airsoft Direct G&G CM16 Raider", price: "£183", type: "AEG", source: "Airsoft Direct" },
+  { name: "Airsoft Direct F2000 AEG", price: "£258", type: "AEG", source: "Airsoft Direct" },
+  { name: "Airsoft Direct SVD Dragunov", price: "£316", type: "AEG", source: "Airsoft Direct" },
+  { name: "Airsoft Direct M4 RIS", price: "£224", type: "AEG", source: "Airsoft Direct" },
+  { name: "Airsoft Direct AUG AEG", price: "£274", type: "AEG", source: "Airsoft Direct" },
+  { name: "Airsoft Direct AK74 AEG", price: "£228", type: "AEG", source: "Airsoft Direct" },
+  { name: "Airsoft Direct L85A2 AEG", price: "£291", type: "AEG", source: "Airsoft Direct" },
+  { name: "Airsoft Direct MP5 AEG", price: "£191", type: "AEG", source: "Airsoft Direct" },
+  { name: "Airsoft Direct SCAR-L AEG", price: "£249", type: "AEG", source: "Airsoft Direct" },
+  { name: "Airsoft Direct SCAR-H AEG", price: "£291", type: "AEG", source: "Airsoft Direct" },
+  { name: "Airsoft Direct LMG M249", price: "£415", type: "AEG", source: "Airsoft Direct" },
+  { name: "Airsoft Direct M14 SOCOM", price: "£291", type: "AEG", source: "Airsoft Direct" },
+
+  // PISTOLS
+  { name: "Airsoft Direct Glock 17 GBB", price: "£124", type: "Gas Blowback", source: "Airsoft Direct" },
+  { name: "Patrol Base Glock 19X GBB", price: "£133", type: "Gas Blowback", source: "Patrol Base" },
+  { name: "BZ Tactical M1911 GBB", price: "£108", type: "Gas Blowback", source: "BZ Tactical" },
+  { name: "Airsoft Direct Tokyo Marui Desert Eagle", price: "£191", type: "Gas Blowback", source: "Airsoft Direct" },
+  { name: "BZ Tactical Beretta M9 GBB", price: "£116", type: "Gas Blowback", source: "BZ Tactical" },
+  { name: "Patrol Base WE M9A1 GBB", price: "£133", type: "Gas Blowback", source: "Patrol Base" },
+  { name: "Airsoft Direct KWA USP GBB", price: "£158", type: "Gas Blowback", source: "Airsoft Direct" },
+  { name: "BZ Tactical Glock 17 Gen 4", price: "£150", type: "Gas Blowback", source: "BZ Tactical" },
+  { name: "Patrol Base WE 1911", price: "£124", type: "Gas Blowback", source: "Patrol Base" },
+  { name: "Airsoft Direct KJW Glock 18C GBB", price: "£166", type: "Gas Blowback", source: "Airsoft Direct" },
+
+  // Patrol Base
+  { name: "Patrol Base Glock 19X GBB", price: "£133", type: "Gas Blowback", source: "Patrol Base" },
+  { name: "Patrol Base Glock 17 GBB", price: "£124", type: "Gas Blowback", source: "Patrol Base" },
+  { name: "Patrol Base WE M9A1 GBB", price: "£133", type: "Gas Blowback", source: "Patrol Base" },
+  { name: "Patrol Base Tokyo Marui Desert Eagle GBB", price: "£191", type: "Gas Blowback", source: "Patrol Base" },
+  { name: "Patrol Base WE 1911 GBB", price: "£124", type: "Gas Blowback", source: "Patrol Base" },
+  { name: "Patrol Base Glock 18C GBB", price: "£166", type: "Gas Blowback", source: "Patrol Base" },
+  { name: "Patrol Base Tokyo Marui Hi-Capa 5.1 GBB", price: "£191", type: "Gas Blowback", source: "Patrol Base" },
+  { name: "Patrol Base WE Glock 17 GBB", price: "£133", type: "Gas Blowback", source: "Patrol Base" },
+  { name: "Patrol Base Tokyo Marui M1911 GBB", price: "£174", type: "Gas Blowback", source: "Patrol Base" },
+  { name: "Patrol Base KWA M1911 GBB", price: "£174", type: "Gas Blowback", source: "Patrol Base" },
+
+  // BZ Tactical
+  { name: "BZ Tactical M1911 GBB", price: "£108", type: "Gas Blowback", source: "BZ Tactical" },
+  { name: "BZ Tactical Glock 17 Gen 4 GBB", price: "£150", type: "Gas Blowback", source: "BZ Tactical" },
+  { name: "BZ Tactical Beretta M9 GBB", price: "£116", type: "Gas Blowback", source: "BZ Tactical" },
+  { name: "BZ Tactical WE Glock 19 GBB", price: "£133", type: "Gas Blowback", source: "BZ Tactical" },
+  { name: "BZ Tactical Tokyo Marui Desert Eagle GBB", price: "£158", type: "Gas Blowback", source: "BZ Tactical" },
+  { name: "BZ Tactical KWA USP GBB", price: "£158", type: "Gas Blowback", source: "BZ Tactical" },
+  { name: "BZ Tactical WE 1911 GBB", price: "£124", type: "Gas Blowback", source: "BZ Tactical" },
+  { name: "BZ Tactical Glock 18C GBB", price: "£166", type: "Gas Blowback", source: "BZ Tactical" },
+  { name: "BZ Tactical KJW Glock 17 GBB", price: "£141", type: "Gas Blowback", source: "BZ Tactical" },
+  { name: "BZ Tactical WE Desert Eagle GBB", price: "£158", type: "Gas Blowback", source: "BZ Tactical" },
+
+  // Airsoft Direct
+  { name: "Airsoft Direct KJW Glock 18C GBB", price: "£166", type: "Gas Blowback", source: "Airsoft Direct" },
+  { name: "Airsoft Direct Tokyo Marui Desert Eagle GBB", price: "£191", type: "Gas Blowback", source: "Airsoft Direct" },
+  { name: "Airsoft Direct WE Glock 17 GBB", price: "£133", type: "Gas Blowback", source: "Airsoft Direct" },
+  { name: "Airsoft Direct WE 1911 GBB", price: "£124", type: "Gas Blowback", source: "Airsoft Direct" },
+  { name: "Airsoft Direct KWA M1911 GBB", price: "£174", type: "Gas Blowback", source: "Airsoft Direct" },
+  { name: "Airsoft Direct Tokyo Marui Hi-Capa 5.1 GBB", price: "£191", type: "Gas Blowback", source: "Airsoft Direct" },
+  { name: "Airsoft Direct Glock 19X GBB", price: "£133", type: "Gas Blowback", source: "Airsoft Direct" },
+  { name: "Airsoft Direct KJW Glock 17 GBB", price: "£141", type: "Gas Blowback", source: "Airsoft Direct" },
+  { name: "Airsoft Direct Tokyo Marui M1911 GBB", price: "£174", type: "Gas Blowback", source: "Airsoft Direct" },
+  { name: "Airsoft Direct WE Glock 18C GBB", price: "£166", type: "Gas Blowback", source: "Airsoft Direct" },
+
+  // Additional Pistols
+
+  // Patrol Base
+  { name: "Patrol Base Colt Python GBB", price: "£224", type: "Gas Blowback", source: "Patrol Base" },
+  { name: "Patrol Base Umarex Walther P99 GBB", price: "£150", type: "Gas Blowback", source: "Patrol Base" },
+  { name: "Patrol Base Sig Sauer P226 GBB", price: "£174", type: "Gas Blowback", source: "Patrol Base" },
+  { name: "Patrol Base M&P 9 GBB", price: "£174", type: "Gas Blowback", source: "Patrol Base" },
+  { name: "Patrol Base Ruger MK IV GBB", price: "£191", type: "Gas Blowback", source: "Patrol Base" },
+
+  // BZ Tactical
+  { name: "BZ Tactical Colt Python GBB", price: "£224", type: "Gas Blowback", source: "BZ Tactical" },
+  { name: "BZ Tactical Walther P99 GBB", price: "£150", type: "Gas Blowback", source: "BZ Tactical" },
+  { name: "BZ Tactical Sig Sauer P226 GBB", price: "£174", type: "Gas Blowback", source: "BZ Tactical" },
+  { name: "BZ Tactical M&P 9 GBB", price: "£174", type: "Gas Blowback", source: "BZ Tactical" },
+  { name: "BZ Tactical Ruger MK IV GBB", price: "£191", type: "Gas Blowback", source: "BZ Tactical" },
+
+  // Airsoft Direct
+  { name: "Airsoft Direct Colt Python GBB", price: "£224", type: "Gas Blowback", source: "Airsoft Direct" },
+  { name: "Airsoft Direct Walther P99 GBB", price: "£150", type: "Gas Blowback", source: "Airsoft Direct" },
+  { name: "Airsoft Direct Sig Sauer P226 GBB", price: "£174", type: "Gas Blowback", source: "Airsoft Direct" },
+  { name: "Airsoft Direct M&P 9 GBB", price: "£174", type: "Gas Blowback", source: "Airsoft Direct" },
+  { name: "Airsoft Direct Ruger MK IV GBB", price: "£191", type: "Gas Blowback", source: "Airsoft Direct" },
+];
+
+export default pistols;
