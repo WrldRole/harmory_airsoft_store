@@ -1,0 +1,14 @@
+import React from 'react';
+import './App.css';
+import ProductsList from './components/ProductsList';
+
+function App() {
+  return (
+    <div className="App">
+      <h1>Welcome to Harmory Airsoft Store</h1>
+      <ProductsList />
+    </div>
+  );
+}
+
+export default App;
